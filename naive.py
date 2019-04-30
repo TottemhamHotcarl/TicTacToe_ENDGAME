@@ -10,7 +10,7 @@ def nicePrint(Title, data):
 
 
 def getData():
-    path = r"C:\Users\carlg\Desktop\Machine Learning\training1.txt"
+    path = r"C:\Users\carlg\Desktop\Machine Learning\experiment.txt"
 
     file_object = open(path, 'r')
 
@@ -33,7 +33,7 @@ def getData():
     return lists
 
 def getTestData():
-    path = r"C:\Users\carlg\Desktop\Machine Learning\test-validating.txt"
+    path = r"C:\Users\carlg\Desktop\Machine Learning\Fulldata.txt"
 
     file_object = open(path, 'r')
 
