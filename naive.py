@@ -92,6 +92,7 @@ def getProbabilities(Data):
         elif i[9] == 0:
             numNeg = numNeg + 1
             total = total + 1
+
     return [numPos/total, numNeg/total]
 
 
@@ -155,12 +156,21 @@ def naivebayesNegativeCalc(negativeTable,test):
     return Pn
 
 
+
+
+getProbabilities(Data)
+
+
+
 def zlatan(test):
     Pxgivenpos = naivebayesPositiveCalc(positiveTable,test)
     Pxgivenneg = naivebayesNegativeCalc(negativeTable, test)
     temp = (getProbabilities(Data))
     Ppos = temp[0]
     Pneg = temp[1]
+
+
+
 
 
     dem = Pxgivenneg*Pneg + Pxgivenpos*Ppos
