@@ -6,7 +6,7 @@ file_object  = open(path, 'r')
 
 i = 0
 lst = []
-n = 958*(0.4) #%of testing data
+n = 958*(0.0) #%of testing data
 while i < n:
 	r = random.randint(0,957)
 	if r not in lst:

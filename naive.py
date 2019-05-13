@@ -33,7 +33,7 @@ def getData():
     return lists
 
 def getTestData():
-    path = r"C:\Users\carlg\Desktop\Machine Learning\test-validating.txt"
+    path = r"C:\Users\carlg\Desktop\Machine Learning\johnCena.txt"
 
     file_object = open(path, 'r')
 
